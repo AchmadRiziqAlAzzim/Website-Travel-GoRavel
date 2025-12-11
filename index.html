@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <title>Portofolio | Riziq</title>
+</head>
+
+<body style="background-color: rgb(255, 255, 255) !important;" id="background">
+  <section id="home">
+    <div class="position-fixed top-0 start-0 w-100 z-3 bg-nav bg-white" data-aos="fade-right">
+      <nav class="container navbar navbar-expand-lg" style="padding: 30px;">
+        <div class="container-fluid">
+          <a href="" class="navbar-brand"><i class="fa-brands fa-codepen me-0" id="main-icon"
+              style="font-size: 32px; color:#0040ff;"></i></a><span class="font ms-0" style="font-size: 20px;">Go<span
+              style="color: #0040ff;">Ravel</span></span>
+          <button class="navbar-toggler" style="border: solid 3px #183153; color: #0040ff;" type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span style="color: #183153;"><i class="fa-solid fa-bars fs-3 p-1"></i></span>
+          </button>
+          <div class="collapse navbar-collapse ms-auto mt-2" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center" style="gap: 4dvh;">
+              <li class="nav-item">
+                <a class="nav-link active font" aria-current="page" href="#home"><i
+                    class="fa-solid fa-home me-2 d-none d-xl-inline"></i>Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active font" aria-current="page" href="#history"><i
+                    class="fa-solid fa-bolt me-2 d-none d-xl-inline"></i>Stories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active font" aria-current="page" href="#paket"><i
+                    class="fa-solid fa-paper-plane me-2 d-none d-xl-inline"></i>Paket</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active font" aria-current="page" href="#eksplore"><i
+                    class="fa-brands fa-docker me-2 d-none d-xl-inline"></i>Eksplore</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active font" aria-current="page" href="#Q&A"><i
+                    class="fa-solid fa-brain me-2 d-none d-xl-inline"></i>Q&A</a>
+              </li>
+              <li class="nav-item">
+                <div class="button target-button" id="button">Register<i class="fa-solid fa-door-open ms-2"></i></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container main-section" style="margin-top: 25dvh;" id="navbar">
+      <div class="row align-items-center py-1">
+
+        <div class="col-12 col-md-6 order-1 order-md-2" data-aos="fade-left">
+
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://picsum.photos/id/323/1200/600" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Mountain Cliff</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&h=600&q=80"
+                  class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Coastal Cliffs</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://picsum.photos/id/392/1200/600" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Red Bridge</h5>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 order-1 order-md-1 mt-md-0" data-aos="fade-right">
+
+          <div class="d-flex gap-3 mb-3">
+            <a href="https://www.instagram.com/achmadriziqalazzim/" class="text-dark fs-4"><i
+                class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/" class="text-dark fs-4"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.whatsapp.com/?lang=en" class="text-dark fs-4"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.tiktok.com/@family_triple_m" class="text-dark fs-4"><i
+                class="fa-brands fa-tiktok"></i></a>
+          </div>
+
+          <h1 class="talk-title"> <span class="header2">Perjalanan Aman</span> & Nyaman
+            <i class="fa-solid fa-mountain ms-2 d-none d-xxl-inline" style="color: #0040ff;"></i><br>
+            <span class="fs-2" id="typing"></span>
+          </h1>
+
+          <p class="talk-subtitle">
+            Nikmati kenyaman berwisata dan berjelajah menggunakan GoRavel, Keselamatan dan kepuasan Anda adalah <span
+              style="color: #0040ff;">prioritas kami.</span>
+          </p>
+
+          <div class="btn-wrapper mt-5 d-flex">
+            <div class="button target-button" id="button">Pesan Sekarang<i class="fa-solid fa-mountain ms-2"></i></div>
+            <div class="button-border target-button ms-3" id="button">Jadwal<i class="fa-solid fa-calendar ms-2"></i>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="history">
+    <div class="container">
+      <div class="text-center header mb-2" style="color: #0040ff !important;" data-aos="fade-up">Perjalanan Kami</div>
+      <div class="text-center font" data-aos="fade-up">Komitmen melayani kebutuhan perjalanan Anda dengan
+        Profesionalisme</div>
+      <div class="d-flex justify-content-center" data-aos="fade-up">
+        <div class="rounded-3 mt-4 mb-5" style="width: 5rem; height: 0.5rem; background-color: #ffbf00;"></div>
+      </div>
+      <div class="container text-start">
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-xl-3 row-cols-xxl-3">
+          <div class="col mb-3" data-aos="fade-up">
+            <div class="d-flex">
+              <div class="card">
+                <div class="card-body p-4 pb-2 d-inline-flex">
+                  <div class="d-block mt-3">
+                    <span class="badge-blue rounded-3 text-white"
+                      style="background-color: #0040ff; padding: 12px 18px;"><i class="fa-regular fa-flag"></i></span>
+                  </div>
+
+                  <div class="container card-content">
+                    <div class="font-card-yellow">15+ Tahun</div>
+                    <div class="card-title font-card">Berdiri Sejak 2010</div>
+                    <p class="talk-subtitle">Awal perjalanan kami melayani pengguna charter GoRavel</p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-3" data-aos="fade-up">
+            <div class="d-flex">
+              <div class="card">
+                <div class="card-body p-4 pb-2 d-inline-flex">
+                  <div class="d-block mt-3">
+                    <span class="badge-blue rounded-3 card-custom"><i class="fa-solid fa-ship"></i></span>
+                  </div>
+
+                  <div class="container card-content">
+                    <div class="font-card-blue">860+</div>
+                    <div class="card-title font-card">Jumlah Armada</div>
+                    <p class="talk-subtitle">Kami memiliki beberapa Armada yang bersertifikat resmi</p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-3" data-aos="fade-up">
+            <div class="d-flex">
+              <div class="card">
+                <div class="card-body p-4 pb-2 d-inline-flex">
+                  <div class="d-block mt-3">
+                    <span class="badge-blue rounded-3 card-custom"><i class="fa-solid fa-city"></i></span>
+                  </div>
+
+                  <div class="container card-content">
+                    <div class="font-card-blue">45 • Mitra</div>
+                    <div class="card-title font-card">Mitra & Pelanggan Tetap</div>
+                    <p class="talk-subtitle">Dipercaya sekolah, pemerintah, dan perusahan besar lainnya</p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-3" data-aos="fade-up">
+            <div class="d-flex">
+              <div class="card">
+                <div class="card-body p-4 pb-2 d-inline-flex">
+                  <div class="d-block mt-3">
+                    <span class="badge-blue rounded-3 card-custom"><i class="fa-solid fa-trophy"></i></span>
+                  </div>
+
+                  <div class="container card-content">
+                    <div class="font-card-blue">12 • Penghargaan</div>
+                    <div class="card-title font-card">Beragam Penghargaan</div>
+                    <p class="talk-subtitle">Kami memiliki beberapa pengharagaan yang berharga</p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-3" data-aos="fade-up">
+            <div class="d-flex">
+              <div class="card">
+                <div class="card-body p-4 pb-2 d-inline-flex">
+                  <div class="d-block mt-3">
+                    <span class="badge-blue rounded-3 card-custom"><i class="fa-solid fa-thumbtack"></i></span>
+                  </div>
+
+                  <div class="container card-content">
+                    <div class="font-card-blue">Aceh • Papua</div>
+                    <div class="card-title font-card">Jangkauan Wilayah</div>
+                    <p class="talk-subtitle">Menjangkau seluruh daerah yang ada di Indonesia</p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-3" data-aos="fade-up">
+            <div class="d-flex">
+              <div class="card">
+                <div class="card-body p-4 pb-2 d-inline-flex">
+                  <div class="d-block mt-3">
+                    <span class="badge-blue rounded-3 card-custom"><i class="fa-solid fa-medal"></i></span>
+                  </div>
+
+                  <div class="container card-content">
+                    <div class="font-card-blue">Rating 4.8/5</div>
+                    <div class="card-title font-card">Reputasi Pelayanan</div>
+                    <p class="talk-subtitle">Rata Rata Penilaian, di nilai sangat memuaskan oleh pelanggan</p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card" data-aos="fade-up">
+          <div class="card-body p-4 pb-2 d-inline-flex">
+            <div class="d-block mt-3">
+              <span class="badge-blue rounded-3 text-white"
+                style="background-color: #0040ff; padding: 12px 18px; transform: rotate(90deg) !important;"><i
+                  class="fa-regular fa-flag"></i></span>
+            </div>
+
+            <div class="container card-content">
+              <div class="font-card-yellow">15+ Tahun</div>
+              <div class="card-title font-card">Berdiri Sejak 2010</div>
+              <p class="talk-subtitle">GoRavel beroperasi sejak tahun 2010 dengan berfokus pada pengoperasian</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center header2 mb-2" style="color: #183153;" data-aos="fade-up">Pilih Paket Sesuai <span
+        class="header2">Kebutuhan</span> Anda</div>
+    <div class="text-center font" data-aos="fade-up">Temukan paket terbaik anda, untuk perjalanan sendiri dan keluarga</div>
+    <div class="d-flex justify-content-center" data-aos="fade-up">
+      <div class="rounded-3 mt-4 mb-5" style="width: 5rem; height: 0.5rem; background-color: #ffbf00;"></div>
+    </div>
+
+    <section id="paket">
+      <div class="container">
+        <div class="d-flex justify-content-center"></div>
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-xl-3 row-cols-xxl-4">
+            <div class="col mb-4" data-aos="fade-up">
+              <div class="card" style="width: 100%;">
+                <img src="https://picsum.photos/id/299/800/400" class="mt-0" style="height: 12rem !important;">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold font-card2" style="color: #0040ff !important;">Tonny Nacaratto</h5>
+                  <h5 class="card-title fw-bold mb-4">Rp. 100.000</h5>
+                  <div class="d-block">
+                    <span class="badge-blue rounded-3 card-custom"><i class="fa-solid fa-bus"></i></span>
+                    <span class="badge-blue rounded-3 card-custom ms-2"><i class="fa-solid fa-ship"></i></span>
+                    <span class="badge-blue rounded-3 card-custom ms-2"><i class="fa-solid fa-car"></i></span>
+                    <span class="badge-blue rounded-3 card-custom ms-2"><i class="fa-solid fa-helicopter"></i></span>
+                  </div>
+                  <div class="button target-button text-center mt-4" id="button">Pesan Sekarang<i
+                      class="fa-solid fa-mountain ms-2"></i></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4" data-aos="fade-up">
+              <div class="card" style="width: 100%;">
+                <img src="https://picsum.photos/id/434/800/400" class="mt-0" style="height: 12rem !important;">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold" style="color: #0040ff;">Ronaldo Becker</h5>
+                  <h5 class="card-title fw-bold mb-4">Rp. 200.000</h5>
+                  <div class="d-block">
+                    <span class="badge-blue rounded-3 card-custom ms-2"><i class="fa-solid fa-car"></i></span>
+                    <span class="badge-blue rounded-3 card-custom ms-2"><i class="fa-solid fa-ship"></i></span>
+                    <span class="badge-blue rounded-3 card-custom ms-2"><i class="fa-solid fa-helicopter"></i></span>
+                  </div>
+                  <div class="button target-button text-center mt-4" id="button">Pesan Sekarang<i
+                      class="fa-solid fa-mountain ms-2"></i></div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col mb-4" data-aos="fade-up">
+              <div class="card" style="width: 100%;">
+                <img src="https://picsum.photos/id/296/800/400" class="mt-0" style="height: 12rem !important;">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold" style="color: #0040ff;">Dietmar Becker</h5>
+                  <h5 class="card-title fw-bold mb-4">Rp. 300.000</h5>
+                  <div class="d-block">
+                    <span class="badge-blue rounded-3 card-custom ms-2"><i class="fa-solid fa-ship"></i></span>
+                    <span class="badge-blue rounded-3 card-custom ms-2"><i class="fa-solid fa-helicopter"></i></span>
+                  </div>
+                  <div class="button target-button text-center mt-4" id="button">Pesan Sekarang<i
+                      class="fa-solid fa-mountain ms-2"></i></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4" data-aos="fade-up">
+              <div class="card" style="width: 100%;">
+                <img src="https://picsum.photos/id/337/800/400" class="mt-0" style="height: 12rem !important;">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold" style="color: #0040ff;">Bellingham</h5>
+                  <h5 class="card-title fw-bold mb-4">Rp. 400.000</h5>
+                  <div class="d-block">
+                    <span class="badge-blue rounded-3 card-custom ms-2"><i class="fa-solid fa-train"></i></span>
+                    <span class="badge-blue rounded-3 card-custom ms-2"><i class="fa-solid fa-helicopter"></i></span>
+                  </div>
+                  <div class="button target-button text-center mt-4" id="button">Pesan Sekarang<i
+                      class="fa-solid fa-mountain ms-2"></i></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4" data-aos="fade-up">
+              <div class="card" style="width: 100%;">
+                <img src="https://picsum.photos/id/190/800/400" class="mt-0" style="height: 12rem !important;">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold" style="color: #0040ff;">Robelcker</h5>
+                  <h5 class="card-title fw-bold mb-4">Rp. 500.000</h5>
+                  <div class="d-block">
+                    <span class="badge-blue rounded-3 card-custom ms-2"><i class="fa-solid fa-ship"></i></span>
+                    <span class="badge-blue rounded-3 card-custom ms-2"><i class="fa-solid fa-train"></i></span>
+                    <span class="badge-blue rounded-3 card-custom ms-2"><i class="fa-solid fa-helicopter"></i></span>
+                  </div>
+                  <div class="button target-button text-center mt-4" id="button">Pesan Sekarang<i
+                      class="fa-solid fa-mountain ms-2"></i></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4" data-aos="fade-up">
+              <div class="card" style="width: 100%;">
+                <img src="https://picsum.photos/id/197/800/400" class="mt-0" style="height: 12rem !important;">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold" style="color: #0040ff;">Messi</h5>
+                  <h5 class="card-title fw-bold mb-4">Rp. 600.000</h5>
+                  <div class="d-block">
+                    <span class="badge-blue rounded-3 card-custom ms-2"><i class="fa-solid fa-ship"></i></span>
+                    <span class="badge-blue rounded-3 card-custom ms-2"><i class="fa-solid fa-train"></i></span>
+                    <span class="badge-blue rounded-3 card-custom ms-2"><i class="fa-solid fa-helicopter"></i></span>
+                  </div>
+                  <div class="button target-button text-center mt-4" id="button">Pesan Sekarang<i
+                      class="fa-solid fa-mountain ms-2"></i></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4" data-aos="fade-up">
+              <div class="card" style="width: 100%;">
+                <img src="https://picsum.photos/id/337/800/400" class="mt-0" style="height: 12rem !important;">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold" style="color: #0040ff;">Bellingham</h5>
+                  <h5 class="card-title fw-bold mb-4">Rp. 700.000</h5>
+                  <div class="d-block">
+                    <span class="badge-blue rounded-3 card-custom ms-2"><i class="fa-solid fa-ship"></i></span>
+                    <span class="badge-blue rounded-3 card-custom ms-2"><i class="fa-solid fa-train"></i></span>
+                    <span class="badge-blue rounded-3 card-custom ms-2"><i class="fa-solid fa-helicopter"></i></span>
+                  </div>
+                  <div class="button target-button text-center mt-4" id="button">Pesan Sekarang<i
+                      class="fa-solid fa-mountain ms-2"></i></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4" data-aos="fade-up">
+              <div class="card" style="width: 100%;">
+                <img src="https://picsum.photos/id/440/800/400" class="mt-0" style="height: 12rem !important;">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold" style="color: #0040ff;">Robert Dybala</h5>
+                  <h5 class="card-title fw-bold mb-4">Rp. 800.000</h5>
+                  <div class="d-block">
+                    <span class="badge-blue rounded-3 card-custom ms-2"><i class="fa-solid fa-train"></i></span>
+                  </div>
+                  <div class="button target-button text-center mt-4" id="button">Pesan Sekarang<i
+                      class="fa-solid fa-mountain ms-2"></i></div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+  </section>
+
+  <section id="eksplore">
+    <div class="d-flex justify-content-center" style="margin-top: 18dvh;" data-aos="fade-up">
+      <span class="badge-blue rounded-3 card-custom ms-2"><i class="fa-solid fa-image"></i></span>
+    </div>
+    <div class="text-center header2 mb-2 mt-0" style="color: #183153;" data-aos="fade-up">Abadikan Moment Anda Di Sini !</div>
+    <div class="text-center font" data-aos="fade-up">Moment bersama GoRavel agar hidup lebih bermakna</div>
+    <div class="d-flex justify-content-center">
+      <div class="rounded-3 mt-4 mb-5" style="width: 5rem; height: 0.5rem; background-color: #ffbf00;" data-aos="fade-up"></div>
+    </div>
+    <div class="d-flex container justify-content-center">
+
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-aos="zoom-in">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://picsum.photos/id/323/1200/600" id="img-eksplore" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Mountain Cliff</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&h=600&q=80"
+              class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Coastal Cliffs</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://picsum.photos/id/392/1200/600" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Red Bridge</h5>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section id="Q&A">
+    <div class="d-flex justify-content-center" style="margin-top: 18dvh;" data-aos="fade-up">
+      <span class="badge-blue rounded-3 card-custom ms-2"><i class="fa-solid fa-question"></i></span>
+    </div>
+    <div class="text-center header2 mb-2 mt-0" style="color: #183153;" data-aos="fade-up">Pertanyaan Yang Sering DiAjukan</div>
+    <div class="text-center font" data-aos="fade-up">Pusat Informasi seputar pelayanan GoRavel</div>
+    <div class="d-flex justify-content-center">
+      <div class="rounded-3 mt-4 mb-5" style="width: 5rem; height: 0.5rem; background-color: #ffbf00;" data-aos="fade-up"></div>
+    </div>
+
+    <div class="container">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item mb-3 rounded-3" data-aos="fade-up">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed rounded-3 fw-bold font" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Bagaimana Cara Pesan Paket GoRavel ?
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse rounded-3"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body fw-medium">Tinggal Pencet Tombol Pesan 🤣😜</div>
+          </div>
+        </div>
+        <div class="accordion-item mb-3 rounded-3" data-aos="fade-up">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fw-bold font rounded-3" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Area Mana Saja Yang Dapat Di Layani GoRavel ?
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse rounded-3"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body fw-medium">Seluruh Indonesia</div>
+          </div>
+        </div>
+        <div class="accordion-item mb-3 rounded-3" data-aos="fade-up">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fw-bold font rounded-3" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Kapan Jadwal Di Anggap Fix ?
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body fw-medium">Saat Sudah Melakukan Pembayaran</div>
+          </div>
+        </div>
+        <div class="accordion-item mb-3 rounded-3" data-aos="fade-up">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fw-bold font rounded-3" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTFour" aria-expanded="false" aria-controls="flush-collapseFour">
+              Apakah Ada Kerja Sama Antar Sekolah / Perusahaan ?
+            </button>
+          </h2>
+          <div id="flush-collapseTFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body fw-medium">Kami Membuka Beberapa Agent Untuk Bekerja Sama Antar Sekolah Dan
+              Perusahaan</div>
+          </div>
+        </div>
+        <div class="accordion-item mb-3 rounded-3" data-aos="fade-up">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed fw-bold font rounded-3" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTFive" aria-expanded="false" aria-controls="flush-collapseFour">
+              Bagaimana Jika Terjadi Kendala Teknis Saat Perjalanan ?
+            </button>
+          </h2>
+          <div id="flush-collapseTFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body fw-medium">Nasib Anda, Kami Tidak Peduli, Dan Tanggung Jawab Sendiri 🤗</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer border-top border-secondary" data-aos="fade-up">
+    <div class="footer-container mb-5">
+
+
+      <div class="footer-left">
+        <div class="footer-brand">
+          <!-- <span class="logo-footer"><img src="/Main_Logo.png" style="width: 10dvh;"></span> -->
+          <span class="name-footer">Port | Riziq</span>
+        </div>
+
+        <p class="footer-p">
+          Website Ini Menjual Jasa Berupa Ticket Travel Untuk
+          Berpergian Ke Manca Negara
+        </p>
+
+        <div class="sosial-footer">
+          <ul>
+            <li><a href="https://www.instagram.com/achmadriziqalazzim/" class="link-dark"><i
+                  class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com/" class="link-dark"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="https://www.whatsapp.com/?lang=en" class="link-dark"><i class="fa-brands fa-whatsapp"></i></a>
+            </li>
+            <li><a href="https://github.com/AchmadRiziqAlAzzim" class="link-dark"><i
+                  class="fa-brands fa-tiktok"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <a href="#home">Home</a>
+        <a href="#about">Stories</a>
+        <a href="#project">Paket</a>
+        <a href="#skill">Ekaplore</a>
+        <a href="#ask-ai">Q&A</a>
+      </div>
+
+
+      <div class="footer-col">
+        <h4>Paket | Wisata</h4>
+        <a href="#">Wedding - Organizer</a>
+        <a href="#">Keluarga</a>
+        <a href="#">Mandiri</a>
+        <a href="#">Kelompok</a>
+      </div>
+
+
+      <div class="footer-col">
+        <h4>Feature | Tool</h4>
+        <a href="#">Register</a>
+        <a href="#">Search</a>
+        <a href="#">Login</a>
+        <a href="#">Dashboard</a>
+      </div>
+
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <script>
+    type();
+    AOS.init({
+      duration: 500,
+      once: true
+    });
+  </script>
+</body>
+
+</html>
