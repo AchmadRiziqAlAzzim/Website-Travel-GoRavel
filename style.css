@@ -273,7 +273,7 @@
 
 .sosial-footer ul li:active {
   background: transparent;
-  color: white !important;
+  color: transparent !important;
   box-shadow: 0 1px 0 #1f1e24;
   transform: translateY(4%);
 }
@@ -298,7 +298,7 @@
 }
 
 .footer-col a:hover {
-  color: #0040ff;
+  color: #0040ff !important;
 }
 
 @media (max-width: 768px) {
