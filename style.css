@@ -272,7 +272,7 @@
 }
 
 .sosial-footer ul li:active {
-  background: transparent;
+  background: transparent !important;
   color: transparent !important;
   box-shadow: 0 1px 0 #1f1e24;
   transform: translateY(4%);
