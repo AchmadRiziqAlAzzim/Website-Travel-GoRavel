@@ -1,209 +1,209 @@
 * {
-    transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .font {
-    font-size: 15px;
-    font-weight: 700;
-    color: #183153 !important;
-    letter-spacing: -0.2px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #183153 !important;
+  letter-spacing: -0.2px;
 }
 
 .sign {
-    font-size: 28px;
-    font-weight: 700;
-    color: #183153 !important;
-    letter-spacing: -0.2px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #183153 !important;
+  letter-spacing: -0.2px;
 }
 
 .font-card {
-    font-size: 17px;
-    font-weight: 700;
-    color: #183153 !important;
-    letter-spacing: -0.2px;
+  font-size: 17px;
+  font-weight: 700;
+  color: #183153 !important;
+  letter-spacing: -0.2px;
 }
 
 .font-card-yellow {
-    font-size: 15px;
-    font-weight: 700;
-    color: #ffbf00 !important;
-    letter-spacing: -0.2px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #ffbf00 !important;
+  letter-spacing: -0.2px;
 }
 
 .font-card-blue {
-    font-size: 14px;
-    font-weight: 700;
-    color: #818181 !important;
-    letter-spacing: 0.2px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #818181 !important;
+  letter-spacing: 0.2px;
 }
 
 .card-custom {
-    background-color: #0040ff18;
-    color: #0040ff;
-    padding: 12px 18px;
+  background-color: #0040ff18;
+  color: #0040ff;
+  padding: 12px 18px;
 }
 
 .card-custom2 {
-    background-color: #0040ff18;
-    color: #0040ff;
-    padding: 12px 18px;
+  background-color: #0040ff18;
+  color: #0040ff;
+  padding: 12px 18px;
 }
 
 .font-card2 {
-    font-size: 20px;
-    font-weight: 700;
-    color: #183153 !important;
-    letter-spacing: -0.2px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #183153 !important;
+  letter-spacing: -0.2px;
 }
 
 .button {
-    padding: 12px 24px;
-    border-radius: 8px;
-    font-weight: 700;
-    text-decoration: none;
-    font-size: 15px;
-    transition: 0.25s ease;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 15px;
+  transition: 0.25s ease;
 }
 
 .button {
-    position: relative;
-    padding: 12px 20px;
-    cursor: pointer;
-    color: #ffffff;
-    overflow: hidden;
-    background: none; 
-    background: linear-gradient(90deg, #0040ff, #002fbc);
+  position: relative;
+  padding: 12px 20px;
+  cursor: pointer;
+  color: #ffffff;
+  overflow: hidden;
+  background: none;
+  background: linear-gradient(90deg, #0040ff, #002fbc);
 }
 
 .button:hover {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .button:active {
-    transform: scale(0.92);
-    box-shadow: 0 0px 0 #183153;
-    cursor: pointer;
-    transition: 0.25s ease;
+  transform: scale(0.92);
+  box-shadow: 0 0px 0 #183153;
+  cursor: pointer;
+  transition: 0.25s ease;
 }
 
 .button-border {
-    padding: 12px 24px;
-    border-radius: 8px;
-    font-weight: 700;
-    text-decoration: none;
-    font-size: 15px;
-    transition: 0.25s ease;
-    cursor: pointer;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 15px;
+  transition: 0.25s ease;
+  cursor: pointer;
 }
 
 .button-border {
-    border: 2px solid #183153;
-    color: #183153;
-    background: transparent;
+  border: 2px solid #183153;
+  color: #183153;
+  background: transparent;
 }
 
 .talk-title {
-    font-size: 33px;     
-    font-weight: 700;      
-    color: #183153;
-    letter-spacing: -0.2px;
-    margin-bottom: 8px;
+  font-size: 33px;
+  font-weight: 700;
+  color: #183153;
+  letter-spacing: -0.2px;
+  margin-bottom: 8px;
 }
 
 .talk-subtitle {
-    font-size: 14px;  
-    font-weight: 500;     
-    color: #183153;
-    line-height: 1.55;
-    max-width: 420px;
-    margin-bottom: 22px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #183153;
+  line-height: 1.55;
+  max-width: 420px;
+  margin-bottom: 22px;
 }
 
 .talk-links a {
-    text-decoration: none;
-    font-size: 21px;        
-    font-weight: 600;        
-    color: #183153;
-    margin-right: 20px;
+  text-decoration: none;
+  font-size: 21px;
+  font-weight: 600;
+  color: #183153;
+  margin-right: 20px;
 }
 
 .talk-links a:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 .main-section {
-    width: 100%;
-    padding: 0 16px;
-    max-width: 1200px; 
-    margin: 60px auto;
+  width: 100%;
+  padding: 0 16px;
+  max-width: 1200px;
+  margin: 60px auto;
 }
 
 @media (min-width: 320px) {
-    .main-section {
-        max-width: 90%;
-    }
+  .main-section {
+    max-width: 90%;
+  }
 
-    img {
-        width: 100%;
-        max-width: 900px;
-        height: 250px !important; 
-        margin: 20px 0 !important;
-        border-radius: 10px;
-        object-fit: cover;
-        transition: 0.2s ease;
-   }
+  img {
+    width: 100%;
+    max-width: 900px;
+    height: 250px !important;
+    margin: 20px 0 !important;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: 0.2s ease;
+  }
 }
 
 @media (min-width: 768px) {
-    .main-section {
-        max-width: 90%;
-    }
+  .main-section {
+    max-width: 90%;
+  }
 
-    img {
-        width: 100%;
-        max-width: 900px;
-        height: 350px !important; 
-        margin: 20px 0 !important;
-        border-radius: 10px;
-        object-fit: cover;
-        transition: 0.2s ease;
-   }
+  img {
+    width: 100%;
+    max-width: 900px;
+    height: 350px !important;
+    margin: 20px 0 !important;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: 0.2s ease;
+  }
 }
 
 @media (min-width: 1492px) {
-    .main-section {
-        max-width: 80%;
-    }
+  .main-section {
+    max-width: 80%;
+  }
 
-    img {
-       width: 100%;
-       max-width: 900px;
-       height: 350px !important; 
-       margin: 20px 0;
-       border-radius: 10px;
-       object-fit: cover;
-       transition: 0.2s ease;
-    }
+  img {
+    width: 100%;
+    max-width: 900px;
+    height: 350px !important;
+    margin: 20px 0;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: 0.2s ease;
+  }
 }
 
 .header {
-    margin-top: 18dvh;
-    font-size: 32px;
-    font-weight: bold !important;
-    color: transparent;
-    background: linear-gradient(90deg, #0040ff, #001c71);
-    -webkit-background-clip: text;
-    letter-spacing: -0.2px;
+  margin-top: 18dvh;
+  font-size: 32px;
+  font-weight: bold !important;
+  color: transparent;
+  background: linear-gradient(90deg, #0040ff, #001c71);
+  -webkit-background-clip: text;
+  letter-spacing: -0.2px;
 }
 
 .header2 {
-    margin-top: 18dvh;
-    font-size: 33px;
-    font-weight: bold !important;
-    color: transparent;
-    background: linear-gradient(90deg, #0040ff, #002eb9);
-    -webkit-background-clip: text;
-    letter-spacing: -0.2px;
+  margin-top: 18dvh;
+  font-size: 33px;
+  font-weight: bold !important;
+  color: transparent;
+  background: linear-gradient(90deg, #0040ff, #002eb9);
+  -webkit-background-clip: text;
+  letter-spacing: -0.2px;
 }
 
 .footer {
@@ -221,7 +221,6 @@
   gap: 60px;
   justify-content: space-between;
 }
-
 
 .footer-left {
   max-width: 360px;
@@ -273,7 +272,7 @@
 }
 
 .sosial-footer ul li:active {
-  background: #ffffff;
+  background: transparent;
   color: white !important;
   box-shadow: 0 1px 0 #1f1e24;
   transform: translateY(4%);
@@ -299,7 +298,7 @@
 }
 
 .footer-col a:hover {
-    color: #0040ff;
+  color: #0040ff;
 }
 
 @media (max-width: 768px) {
@@ -316,5 +315,3 @@
 .active-link {
   color: #0040ff !important;
 }
-
-
